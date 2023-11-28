@@ -1,0 +1,288 @@
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.bkground{
+    width: max-content;
+
+   background-color: rgba(112, 103, 103, 0.645);
+    position:relative;
+    display:grid;
+    justify-content:space-evenly;
+    align-items: center;
+    
+    grid-auto-flow: column;
+    gap:.1em;
+}
+
+.Skeumorphism{
+    background: linear-gradient(to right, rgba(74, 118, 4, 0.916), rgba(40, 219, 40, 0.823), rgba(0, 70, 0, 0.733));
+    width: max-content;
+    height: 100vh;
+    
+    position:relative;
+    align-items: center;
+    padding: .3em;
+
+    display: flex;
+    flex-direction: column;
+}
+
+span{
+    margin-bottom: 2em;
+    font:bold italic 1em serif;
+    padding: .6em;
+    line-height: 1.3em;
+    color: rgb(249, 247, 247)
+}
+
+span::after{
+    content: " ";
+    display: grid;
+    height: 0.1px;
+    width: 6.3em;
+    background: white;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    row-gap: 3em;
+}
+
+button{
+    width: 7em;
+    height:calc(8.5em / 3);
+    border: none;
+    
+}
+
+#A1{
+    color: rgb(0, 255, 140);
+    background: rgba(138, 188, 1, 0.56);
+    /*border: .1em solid  rgba(232, 105, 59, 0.527) ;*/
+}
+
+#B1{
+    color:rgb(255, 74, 8);
+    background:rgba(100, 30, 3, 0.927);
+    /*border: .1em solid rgba(112, 168, 22, 0.749);*/
+    border-radius: .4em;
+}
+
+#C1{
+    color:rgb(239, 203, 142);
+    background:rgba(50, 42, 42, 0.881);
+    /*border: .1em solid rgba(220, 184, 123, 0.826);*/
+    border-radius: .9em;
+}
+
+#D1{
+    color:yellowgreen;
+    background:rgba(37, 59, 1, 0.916);
+    /*border:.1em solid rgba(50, 42, 42, 0.645) ;*/
+    border-radius: 1.2em;
+}
+
+
+.Neumorphism{
+    background: #5a1220;
+    width: max-content;
+    height: 100vh;
+    
+    position:relative;
+    align-items: center;
+    padding: .3em;
+
+    display: flex;
+    flex-direction: column;
+}
+#A2{
+    color: white;
+    background:rgb(59, 13, 23);
+    box-shadow: 2px 2px 2px #d096a7e4,
+                -3px -3px 3px #2b0a0d;
+    border-radius: 1.2em;
+}
+
+#B2{
+    color:#eaddcd;
+    background:color-mix(in hsl, rgb(159, 31, 31) 60%, black 15%);
+    box-shadow: 4px 4px 4px rgb(34, 2, 6) ,
+                -3px -3px 2px rgba(195, 92, 92, 0.719);
+    border-radius: 1.2em;
+}
+
+#C2{
+    color:#fe9061ce;
+    background:#5a1220  ;
+    box-shadow: 4px 4px 4px rgba(27, 0, 3, 0.886) inset,
+                -3px -2px 2px rgba(187, 165, 150, 0.839) inset;
+    border-radius: 1.2em;
+}
+
+#D2{
+    color:#ff0033;
+    background:#5a1220;
+    box-shadow: 2px 2px 2px rgba(155, 148, 144, 0.839) inset,
+                -3px -3px 3px rgb(24, 0, 2)inset;
+    border-radius: 1.1em;
+}
+
+
+.Glassmorphism{
+    background: linear-gradient(-150deg, rgba(0, 0, 255, 0.883), rgb(123, 194, 238));
+    backdrop-filter: blue;
+    width: max-content;
+    height: 100vh;
+    
+    position:relative;
+    align-items: center;
+    padding: .3em;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#A3{
+    color:white;
+    background: transparent;
+    box-shadow: -1px -2px 4px #1a72e6,
+                2px 2px 4px rgb(62, 126, 161);
+    border-radius: 2em;
+}
+
+#B3{
+    color:white;
+    background:transparent ;
+    border-radius: 3em;
+    box-shadow: -2px 2px 3px rgba(64, 205, 224, 0.848),
+                 1px 1px 2px rgba(64, 205, 224, 0.731);
+}
+
+#C3{
+    color: white;
+    background: transparent;
+    box-shadow: 2px 2px 3px lightcyan inset,
+                -2px -2px 3px blue inset;
+    border-radius: 3em;
+}
+#D3{
+    color: white;
+    background: transparent;
+    box-shadow: 2px 2px 3px blue inset,
+                -2px -2px 3px lightblue inset;
+    border-radius: 3em;
+}
+
+
+.Neubrutalism{
+    background: rgba(134, 3, 134, 0.774);
+    width: max-content;
+    height: 100vh;
+    
+    position:relative;
+    align-items: center;
+    padding: .3em;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+#A4{
+    color: rgb(181, 9, 193);
+    background: rgb(237, 163, 65);
+    box-shadow: 3px 3px 1px   rgb(154, 4, 4) ;
+    border-radius:.4em ;
+    border:.2em solid rgb(39, 1, 1) ;
+}
+
+#B4{
+    color:white;
+    background:green ;
+    border: .1em solid rgb(0, 35, 0);
+    border-radius:.8em ;
+    box-shadow: -7px 6px 1px black;
+}
+
+#C4{
+    color:rgb(139, 9, 42);
+    background:rgba(6, 122, 205, 0.718) ;
+    box-shadow: 5px 5px 1px rgb(0, 0, 0) ;
+    border-radius: 1.6em;
+}
+
+#D4{
+    color:rgb(239, 231, 8);
+    background: #40010d;
+    box-shadow:-3px -3px 1px black,
+                4px 4px 1px black;
+    border-radius: .4em;
+    border: .1em solid rgba(172, 255, 47, 0.423);
+}
+
+
+
+@media screen and (min-width: 680px) {
+    .bkground{
+        position: relative;
+        display: grid;
+        grid-auto-flow: row;
+
+        background-color: rgba(112, 103, 103, 0.645);
+        position:relative;
+        display:grid;
+        justify-content:space-evenly;
+        align-items: center;
+        gap: .4em;
+    }
+
+    .column{
+        display: flex;
+        flex-direction: row;
+        column-gap: 2em;
+        margin: 1em;
+    }
+
+    span{
+        margin-top: 1.2em;
+    }
+
+    .Skeumorphism{
+        width: 100vw;
+        height: 9em;
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    .Neumorphism{
+        width: 100vw;
+        height: 9em;
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    .Glassmorphism{
+        width: 100vw;
+        height: 9em;
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    .Neubrutalism{
+        width: 100vw;
+        height: 9em;
+
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
